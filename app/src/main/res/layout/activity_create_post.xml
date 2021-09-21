@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreatePost">
+
+    <TextView
+        android:id="@+id/chapter_name_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="Chapter_name"
+        android:textSize="25sp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/vani_text_box"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="24dp"
+        android:background="@null"
+        android:gravity="center_horizontal"
+        android:hint="write Your Dohe/Vani Here in Format shown below\n\n
+        गरीब, सेवक होय करि ऊतरे , इस पृथ्वी के माँहि ।\n
+जीव उधारन जगतगुरु , बार बार बलि जांहि ।।380।।\n\n
+गरीब, काशीपुरी कस्त किया , उतरे अधर अधार ।\n
+मोमन कू मुजरा हुवा , जंगल में दीदार ।।381।। "
+        android:inputType="textMultiLine"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/preViewBttn"
+        app:layout_constraintEnd_toEndOf="@+id/chapter_name_title"
+        app:layout_constraintStart_toStartOf="@+id/chapter_name_title"
+        app:layout_constraintTop_toBottomOf="@+id/lastCharacterBox" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/preViewBttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/purple_200"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/goToHistory"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <EditText
+        android:id="@+id/lastCharacterBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:ems="10"
+        android:textSize="15dp"
+        android:layout_marginHorizontal="14dp"
+        android:hint="Paste Last Character like (|| or | ) if crashed (optional)"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chapter_name_title" />
+
+    <Button
+        android:id="@+id/goToHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="133dp"
+        android:layout_marginBottom="24dp"
+        android:text="My Work History"
+        android:backgroundTint="@color/purple_200"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/preViewBttn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

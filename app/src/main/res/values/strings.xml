@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Kabir sakhi granth (EditorMode)</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string-array name="chapter_name">
+        <item>Select Chapter</item>
+        <item>1 - गुरु को अंग</item>
+        <item>2 - सद्गुरु को अंग</item>
+        <item>3 - गुरु पारख को अंग</item>
+        <item>4 - गुरु शिष्य को अंग</item>
+        <item>5 - निगुरा को अंग</item>
+        <item>6 - साधु को अंग</item>
+        <item>7 - भीख को अंग</item>
+        <item>8 - भेष को अंग</item>
+        <item>9 - संगति को अंग</item>
+        <item>10 - सेवक को अंग</item>
+        <item>11 - दासातन को अंग</item>
+        <item>12 - भक्ति को अंग</item>
+        <item>13 - सुमिरन को अंग</item>
+        <item>14 - परिचय को अंग</item>
+        <item>15 - प्रेम को अंग</item>
+        <item>16 - बिरह को अंग</item>
+        <item>17 - चेतावनी को अंग</item>
+        <item>18 - उपदेश को अंग</item>
+        <item>19 - शब्द को अंग</item>
+        <item>20 - विश्वास को अंग</item>
+        <item>21 - सती को अंग</item>
+        <item>22 - पतिव्रता को अंग</item>
+        <item>23 - विभिचारिन को अंग</item>
+        <item>24 - सूरमा को अंग</item>
+        <item>25 - स्वारथ को अंग</item>
+        <item>26 - परमारथ को अंग</item>
+        <item>27 - विपर्यय को अंग</item>
+        <item>28 - रस को अंग</item>
+        <item>29 - मन को अंग</item>
+        <item>30 - माया को अंग</item>
+        <item>31 - कनक कामिनी को अंग</item>
+        <item>32 - काल को अंग</item>
+        <item>33 - समरथ को अंग</item>
+        <item>34 - चानक को अंग</item>
+        <item>35 - आतम अनुभव को अंग</item>
+        <item>36 - सहज को अंग</item>
+        <item>37 - मध्य को अंग</item>
+        <item>38 - भेद को अंग</item>
+        <item>39 - साक्षी भूत को अंग</item>
+        <item>40 - एकता को अंग</item>
+        <item>41 - व्यापक को अंग</item>
+        <item>42 - जीवित मृतक को अंग</item>
+        <item>43 - सजीवन को अंग</item>
+        <item>44 - बेहद को अंग</item>
+        <item>45 - अबिहड को अंग</item>
+        <item>46 - भ्रम विध्वंश को अंग</item>
+        <item>47 - सारग्राही को अंग</item>
+        <item>48 - असारग्राही को अंग</item>
+        <item>49 - पारख को अंग</item>
+        <item>50 - बेलि को अंग</item>
+        <item>51 - कथनी को अंग</item>
+        <item>52 - करनी को अंग</item>
+        <item>53 - लगनी को अंग</item>
+        <item>54 - निजकर्ता को अंग</item>
+        <item>55 - कसौटी को अंग</item>
+        <item>56 - सूक्ष्म मार्ग को अंग</item>
+        <item>57 - भाषा को अंग</item>
+        <item>58 - पंडित को अंग</item>
+        <item>59 - निंदा को अंग</item>
+        <item>60 - आनदेव को अंग</item>
+        <item>61 - प्रकृति गुन को अंग</item>
+        <item>62 - काम को अंग</item>
+        <item>63 - क्रोध को अंग</item>
+        <item>64 - लोभ को अंग</item>
+        <item>65 - मोह को अंग</item>
+        <item>66 - मद को अंग</item>
+        <item>67 - मान को अंग</item>
+        <item>68 - आशा तृष्णा को अंग</item>
+        <item>69 - कपट को अंग</item>
+        <item>70 - दुख को अंग</item>
+        <item>71 - कर्म का अंग</item>
+        <item>72 - स्वाद को अंग</item>
+        <item>73 - मांसाहार को अंग</item>
+        <item>74 - नशा को अंग</item>
+        <item>75 - विवेक को अंग</item>
+        <item>76 - विचार को अंग</item>
+        <item>77 - धीरज को अंग</item>
+        <item>78 - क्षमा को अंग</item>
+        <item>79 - शील को अंग</item>
+        <item>80 - संतोष को अंग</item>
+        <item>81 - साँच को अंग</item>
+        <item>82 - दया को अंग</item>
+        <item>83 - दीनता को अंग</item>
+        <item>84 - विनती को अंग</item>
+        <item>85 - प्रश्नोत्तर को अंग</item>
+    </string-array>
+</resources><!--  -->
+
+
+
+
+
+
+
+
+
+
+
+

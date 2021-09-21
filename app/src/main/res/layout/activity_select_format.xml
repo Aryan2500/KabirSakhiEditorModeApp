@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".SelectFormat">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Select Format"
+        android:textSize="40dp"
+        android:textColor="@color/teal_700"
+        android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="14dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/format1"
+                android:textSize="15dp"
+                android:textColor="@color/purple_500"
+                android:text="गरीब, सेवक होय करि ऊतरे , इस पृथ्वी के माँहि ।\n
+जीव उधारन जगतगुरु , बार बार बलि जांहि ।।380।।\n
+गरीब, काशीपुरी कस्त किया , उतरे अधर अधार ।\n
+मोमन कू मुजरा हुवा , जंगल में दीदार ।।381।।"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="14dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/format2"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:text="नारि एक संसारहि आई, माय न बाके बापहिं जाई । \n गोड न मूड न प्रान अधारा, तामह भरमि रहा संसारा । \n दिना सात लौं उनकी सही, बुद अदबुद अचरज का कही ।\n बाकी बंदन करे सब कोई, बुद अदबुद अचरज बड़ होई ।"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="14dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:id="@+id/radio3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/format3"
+                android:textSize="15dp"
+                android:textColor="#ff3403"
+                android:text="गरीब, सेवक होय करि ऊतरे , इस पृथ्वी के माँहि ।\n
+जीव उधारन जगतगुरु , बार बार बलि जांहि ।।\n
+गरीब, काशीपुरी कस्त किया , उतरे अधर अधार ।\n
+मोमन कू मुजरा हुवा , जंगल में दीदार ।।"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/next2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_baseline_send_24"
+        tools:ignore="VectorDrawableCompat" />
+
+
+</LinearLayout>

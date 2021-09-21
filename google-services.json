@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "358131644215",
+    "firebase_url": "https://satkabir-dfa20-default-rtdb.firebaseio.com",
+    "project_id": "satkabir-dfa20",
+    "storage_bucket": "satkabir-dfa20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358131644215:android:ae0fba148f9b4477c70cb2",
+        "android_client_info": {
+          "package_name": "com.virtual4vibe.satkabir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358131644215-cujfuvifmkkb71v209qdgg5nu1anqg7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOmvU7z2N8fIR44QTcSbV8ID7hxquKXcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358131644215-cujfuvifmkkb71v209qdgg5nu1anqg7h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358131644215:android:fc4539fb5700e87fc70cb2",
+        "android_client_info": {
+          "package_name": "com.virtual4vibe.satkabir_kabirsagar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358131644215-cujfuvifmkkb71v209qdgg5nu1anqg7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOmvU7z2N8fIR44QTcSbV8ID7hxquKXcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358131644215-cujfuvifmkkb71v209qdgg5nu1anqg7h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-3451017145128850~9018760535"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358131644215:android:d9d87936532d2cd3c70cb2",
+        "android_client_info": {
+          "package_name": "com.virtualvibe.kabirsakhigranthcompletesampoornkabirsaakhkigranth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358131644215-cujfuvifmkkb71v209qdgg5nu1anqg7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOmvU7z2N8fIR44QTcSbV8ID7hxquKXcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358131644215-cujfuvifmkkb71v209qdgg5nu1anqg7h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
