@@ -29,6 +29,7 @@ class DohaList : AppCompatActivity() {
         var extra = intent.extras
         if(extra !=null){
             chapter = extra.getString("chapter").toString()
+            chapter_name.text = chapter
             Toast.makeText(this , "$chapter" , Toast.LENGTH_LONG).show()
         }
         initRecyclerView()
