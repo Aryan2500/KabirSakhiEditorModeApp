@@ -32,6 +32,12 @@ class MainActivity : AppCompatActivity() , AdapterView.OnItemSelectedListener{
             }
         }
 
+        gotoEngDohaEditor.setOnClickListener {
+            Intent(this@MainActivity , PostEngLishDohe::class.java).apply {
+                startActivity(this)
+            }
+        }
+
     }
 
     override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
